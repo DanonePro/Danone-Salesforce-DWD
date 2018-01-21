@@ -1,0 +1,13 @@
+<apex:page controller="Cls_QRTest" >
+    <apex:form >
+        <apex:pageBlock >
+            <apex:pageBlockSection >
+                <apex:commandButton value="Create TXT" action="{!btn_click1}"/>
+            </apex:pageBlockSection>
+            <apex:pageBlockSection >
+                <apex:inputTextarea value="{!lbl_1}" cols="180" rows="30"/>
+            </apex:pageBlockSection>
+        </apex:pageBlock>
+        
+    </apex:form>
+</apex:page>
